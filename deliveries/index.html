@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Page</title>
+  <link rel="shortcut icon" href="../freepik__old_ladies_play_piano_and_sing.png" />
+  <!-- <link rel="stylesheet" href="shared.css" /> -->
+  <link rel="stylesheet" href="../main.css" />
+  <link rel="stylesheet" href="deliveries.css" />
+</head>
+<body>
+  <div class="backdrop"></div>
+  <section class="header-section">
+    <div class="upper-header ">
+     <div>
+      <a href="index.html" class="main-header__brand">
+
+        <img src="../freepik__old_ladies_play_piano_and_sing (1)-_color_sticker_.png" alt="SNT Venera - your non commercial affari" />
+      </a>
+     </div>
+      
+      <div class="tect-title">
+        <h1 class="c-title">Вокально-хоровая студиия «Кантилена», Москва, ВАО. Руководитель: Титова Светлана Романовна</h1>
+      </div>
+    </div>
+  <header class="main-header">
+    <!-- <div>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+      
+    </div> -->
+    <div class="mobile-header">
+      <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+      </button>
+      <a href="index.html" class="mobile-header__brand">
+          <img src="../freepik__old_ladies_play_piano_and_sing (1)-_color_sticker_.png" alt="logo AX">
+      </a>
+  </div>
+
+    <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="../index.html">Главная</a>
+        </li>
+
+        <li class="main-nav__item">
+          <a href="../customers/index.html">Архив Видео</a>          
+        </li>
+                <!-- Changes 26.08.2021 - No Us-page but 'Food cathalog'-page -->
+                <li class="main-nav__item">
+                  <a href="../us/index.html">Архив Фото</a>
+                </li>
+        <li class="main-nav__item">
+          <a href="index.html">Объявления</a>
+        </li>
+         <li class="main-nav__item">
+          <a href="../hr/hr.html">Вопросы</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="../contacts/index.html">Контакты</a>
+        </li>
+     
+       
+        <!-- <li class="main-nav__item main-nav__item--cta">
+            <a href="start-hosting/index.html">Заказываем</a>
+        </li> -->
+      </ul>
+    </nav>
+  </header>
+  <nav class="mobile-nav">
+    <!-- <h2>мобильная версия (не видима на ПК)</h2> -->
+    <button id='mob-menu__close' class=" btn-show">Закрыть</button>
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item">
+        <a href="../index.html">Главная</a>
+      </li>
+            <li class="mobile-nav__item">
+        <a href="../customers/index.html">Архив Видео</a>
+      </li>
+
+                          <!--  Changes 26.08.2021 - No Us-page but 'Food cathalog'-page -->
+                          <li class="mobile-nav__item">
+                            <a href="../us/index.html">Архив Фото</a>
+                          </li>
+      <li class="mobile-nav__item">
+        <a href="deliveries/index.html">Объявления</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="../hr/hr.html">Вопросы</a>
+      </li> 
+      <li class="mobile-nav__item">
+        <a href="../contacts/index.html">Контакты</a>
+      </li>     
+</section>
+      <!-- =========================================================NAV - ends==================================================================================== -->
+<main class="co-contacts">
+   <div class="co-info">
+     <!-- ==========================co info start=============================================================
+    <h3>
+      Компания «Агрохолдинг» осуществляет доставку приобретенных у нас продуктов  по г. Москве и Московской области. Возможна доставка в близлежащие регионы.
+    </h3>
+   ========================= <h4>ИНН 9701121948, 
+      ОГРН 1187746798293
+      </h4>==============================
+    <ul class="contacts-list">
+      <li> Доставка осуществляется как изотермическими автофургонами, так и рефрижераторными,  при температурном режиме от +4C° до -18 C°.          
+      </li>
+      <li>Изотермические автофургоны не оснащённы холодильными (рефрижераторными) установками, но температура продуктов длительное время сохраняется за счёт толстого слоя специальной теплоизоляции фургона и при доставке в пределах Московской области температура охлаждённых продуктов сохраняется не выше +4C°.
+      </li>
+      <li>Рефрижераторные автофургоны предназначены для перевозки замороженных продуктов и оборудованны собственной холодильной установкой, поддерживающей температуру в фургоне вплоть до -18C°. </li>
+       
+    </ul>
+     =======================================================co-info end===================================================-->
+  </div>
+  <!-- <div class="d-moscow"> -->
+  <div class="delivery-tariff-list">
+    <!-- ===============================================d-tariff==================================================================
+    <h3> 
+      Тарифы на доставку.
+    </h3>
+    <div class="delivery-moscow">
+    <table class="t-1">
+<caption>Москва в пределах МКАД.</caption>
+<tr>
+  <th rowspan="2">Зона № </th>
+  <th colspan="7">Общий вес доставляемых продуктов
+  </th>
+    <tr>     
+      <th>0,5 т</th>
+      <th>1,0 т</th>
+      <th>1,5 т</th>
+      <th>3,0 т</th>
+      <th>5,0 т</th>
+      <th>10 т</th>
+      <th>20 т</th>
+    </tr> 
+</tr>
+<tr>
+  <th colspan="8">Изотемический автофургон
+  </th>
+</tr>
+<tr>
+  <th>1</th>
+  <td>4 600</td>
+  <td>5 000</td>
+  <td>5 600</td>
+  <td>7 600</td>
+  <td>9 400</td>
+  <td>11 400</td>
+  <td>14 300</td>
+</tr>
+<tr>
+  <th>2</th>
+  <td>5 100</td>
+  <td>5 500</td>
+  <td>6 100</td>
+  <td>8 000</td>
+  <td>9 600</td>
+  <td>11 700</td>
+  <td>15 000</td>
+</tr>
+<tr>
+  <th>3</th>
+  <td>5 300</td>
+  <td>5 700</td>
+  <td>6 300</td>
+  <td>8 200</td>
+  <td>9 700</td>
+  <td>11 800</td>
+  <td>15 400</td>
+</tr>
+<tr>
+  <th>4</th>
+  <td>5 500</td>
+  <td>5 900</td>
+  <td>6 500</td>
+  <td>8 300</td>
+  <td>9 800</td>
+  <td>11 900</td>
+  <td>15 700</td>
+</tr>
+<tr>
+  <th>Доп. точка</th>
+  <td>400</td>
+  <td>550</td>
+  <td colspan="3">700</td>
+  <td colspan="2">1 400</td>
+  
+</tr>
+<tr>
+  <th colspan="8">Рефрижераторный автофургон
+  </th>
+</tr>
+<tr>
+  <th>1</th>
+  <td>4 900</td>
+  <td>5 300</td>
+  <td>5 900</td>
+  <td>8 000</td>
+  <td>9 900</td>
+  <td>12 000</td>
+  <td>15 000</td>
+</tr>
+<tr>
+  <th>2</th>
+  <td>5 400</td>
+  <td>5 800</td>
+  <td>6 400</td>
+  <td>8 400</td>
+  <td>10 600</td>
+  <td>12 300</td>
+  <td>15 800</td>
+</tr>
+<tr>
+  <th>3</th>
+  <td>5 600</td>
+  <td>6 100</td>
+  <td>6 700</td>
+  <td>8 600</td>
+  <td>11 000</td>
+  <td>12 600</td>
+  <td>16 200</td>
+</tr>
+<tr>
+  <th>4</th>
+  <td>5 800</td>
+  <td>6 300</td>
+  <td>6 900</td>
+  <td>8 700</td>
+  <td>11 300</td>
+  <td>12 900</td>
+  <td>16 500</td>
+</tr>
+<tr>
+  <th>Доп. точка</th>
+  <td>400</td>
+  <td>550</td>
+  <td colspan="3">700</td>
+  <td colspan="2">1 400</td>
+  
+</tr>
+
+
+    </table>
+    <div class="d-moscow__img">
+      <h3>Зоны в пределах МКАД</h3>
+      <img src="../images/Moscow - Карта с зонами.jpg" alt="MOscow d-zones">
+    </div>
+    
+  </div>
+<!-- </div> - Moscow tab+map end -->
+=======================================tab-end========================================================================================
+  </div>
+<!-- За МКАД======== -->
+<div class="delivery-mosregion">
+  <!-- ===============================delivery MosRegion========================================================================================================
+  <table class="t-1">
+<caption>Москва и область за МКАД</caption>
+<tr>
+<th rowspan="2">Зона № </th>
+<th colspan="7">Общий вес доставляемых продуктов
+</th>
+  <tr>     
+    <th>0,5 т</th>
+    <th>1,0 т</th>
+    <th>1,5 т</th>
+    <th>3,0 т</th>
+    <th>5,0 т</th>
+    <th>10 т</th>
+    <th>20 т</th>
+  </tr> 
+</tr>
+<tr>
+<th colspan="8">Изотемический автофургон
+</th>
+</tr>
+<tr>
+<th>5</th>
+<td>5 800</td>
+<td>6 300</td>
+<td>6 900</td>
+<td>8 700</td>
+<td>10 800</td>
+<td>13 100</td>
+<td>17 000</td>
+</tr>
+<tr>
+<th>6</th>
+<td>6 100</td>
+<td>6 700</td>
+<td>7 300</td>
+<td>9 000</td>
+<td>11 900</td>
+<td>14 300</td>
+<td>18 300</td>
+</tr>
+<tr>
+<th>7</th>
+<td>6 400</td>
+<td>7 100</td>
+<td>7 700</td>
+<td>9 300</td>
+<td>13 000</td>
+<td>16 400</td>
+<td>19 600</td>
+</tr>
+<tr>
+<th>8</th>
+<td colspan="7">Стоимость согласовывается</td>
+
+</tr>
+<tr>
+<th>Доп. точка</th>
+<td>400</td>
+<td>550</td>
+<td colspan="3">700</td>
+<td colspan="2">1 400</td>
+
+</tr>
+<tr>
+<th colspan="8">Рефрижераторный автофургон
+</th>
+</tr>
+<tr>
+<th>5</th>
+<td>6 200</td>
+<td>6 700</td>
+<td>7 300</td>
+<td>9 100</td>
+<td>11 900</td>
+<td>13 800</td>
+<td>17 900</td>
+</tr>
+<tr>
+<th>6</th>
+<td>6 500</td>
+<td>7 100</td>
+<td>7 700</td>
+<td>9 500</td>
+<td>12 500</td>
+<td>15 100</td>
+<td>19 300</td>
+</tr>
+<tr>
+<th>7</th>
+<td>6 900</td>
+<td>7 600</td>
+<td>8 600</td>
+<td>10 200</td>
+<td>13 200</td>
+<td>15 900</td>
+<td>20 300</td>
+</tr>
+<tr>
+<th>8</th>
+<td colspan="7">Стоимость согласовывается</td>
+
+</tr>
+<tr>
+<th>Доп. точка</th>
+<td>400</td>
+<td>550</td>
+<td colspan="3">700</td>
+<td colspan="2">1 400</td>
+
+</tr>
+
+
+  </table>
+  <div class="d-moscow__img2">
+    <h3>Зоны: Москва о Московская область за МКАД</h3>
+    <img src="../images/Mos.region-Карта с зонами 2.jpg" alt="MOscow d-zones">
+  </div>
+</div>
+  ==================================Mos Region tariff zones END=============================================================================-->
+</div>
+<div class="d-zone-list">
+  <!-- =======================================zone list==============================================================================================
+<table class="t1">
+  <tr>
+    <th>  Зона №  </th>
+    <th>  Зона  </th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>Москва. От ТТК и до МКАД. ВАО, ЮВАО.</td>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>Москва. От ТТК и до МКАДа. САО, СВАО, ЮЗАО, ЮАО.</td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td>Москва. От ТТК и до МКАДа. СЗАО, ЗАО..</td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td>Москва центр. Внутри ТТК.</td>
+  </tr>
+  <tr>
+    <th>5</th>
+    <td>Ближайшее Подмосковье. 10 км. от МКАД.</td>
+  </tr>
+  <tr>
+    <th>6</th>
+    <td>Московская область. Малое Московское кольцо (А107, первое бетонное кольцо, малая бетонка, первая бетонка).</td>
+  </tr>
+  <tr>
+    <th>7</th>
+    <td>Московская область. Большое Московское кольцо (А108, второе бетонное кольцо, большая бетонка, вторая бетонка).</td>
+  </tr>
+  <tr>
+    <th>8</th>
+    <td>Московская область. До границ области. Другие регионы.</td>
+  </tr>
+</table>
+===============================================zone list end==================================================================== -->
+</div>
+<div class="d-last">
+  <!--============================================price policy description===============================================================================
+<h4>
+  Все цены указаны в рублях, в т.ч. НДС 20% .
+Стоимость указана за доставку в одну точку. 
+Каждая последующая точка выгрузки оплачивается дополнительно, см. «Доп. точка».
+Стоимость фиксированная, включает экспедирование по всем точкам выгрузки. 
+Разгрузка товара: водитель-экспедитор подаёт товар на борт автомобиля. Другие варианты можно обсудить с Вашим менеджером. 
+Доставка осуществляется ежедневно, кроме выходных и праздничных дней. В периоды длительных праздников доставка осуществляется по заранее согласованному графику. 
+В случае, если заказ сделан и подтвержден до 16.00 текущего дня, доставка будет осуществлена на следующий рабочий день. 
+Доставка в день заказа возможна по согласованию с менеджером.
+Для отдельных городов Московской области и других регионов сроки и стоимость доставки согласовываются с менеджером.
+Доставка осуществляется постоянно обновляемым парком автофургонов.
+В большинстве случаев доставляем продукты в течение 24 часов с момента подачи заявки.
+Заказы, поступившие в пятницу до 15.00 отгружаются в понедельник.
+Заказы, поступившие в пятницу после 15.00, а также все заказы, поступившие в выходные, обрабатываются в понедельник, доставляются во вторник.
+Возможен самовывоз с нашего склада по предварительной договоренности с менеджером. Отгрузка товара при самовывозе осуществляется с понедельника по пятницу с 10.00 до 15.00.
+
+</h4>
+===================================================price policy description end================================================================================================================== -->
+</div>
+
+<!-- FOOTER 
+<div class="footer">
+  <div class="Flag icon">
+<a href="#">RF flag icon</a>
+  </div>
+  <div class="RF">
+    <a href="#">Российская Федерация</a>
+  
+  </div>
+  <div class="Newsletter">
+    <a href="#">Новости</a>
+  </div>
+      <div class="Help">
+    <a href="#">Помощь</a>
+      </div>
+  <div class="Store">
+    <a href="#">Магазин</a>
+     </div>
+  <div class="Following">
+    <a href="#">Следите за нами</a>
+
+  </div>
+  <div class="legal-use">
+    <a href="#">Условия пользования</a>
+    </div>
+  <div class="Vacancies">
+    <a href="#">Вакансии</a>
+    </div>
+  <div class="site-map">
+    <a href="#">Карта сайта</a>
+
+  </div>
+</div>
+</main>
+
+<script src="../script.js"></script>
+</body>
+</html>
+-->
