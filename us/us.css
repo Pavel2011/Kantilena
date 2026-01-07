@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900'); */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap'); /*Lui Vuiton*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap'); /*mersedes*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+html {
+  height: auto;
+}
+body {
+  /* position: relative; */
+  background-color: cornsilk;
+  margin: 0;
+  padding: 0;
+  margin-top: 9rem;
+  font-size: 1.4rem;
+  /* height: 100vh; */
+}
+.header-section {
+  padding-bottom: 2rem;
+}
+.main-nav__items li:nth-child(3) {
+  background-color: rgb(107, 101, 101);
+}
+.main-nav__items li:nth-child(1) {
+  background-color: black;
+}
+.mobile-nav__items li:nth-child(3) {
+  background-color: rgb(107, 101, 101);
+  width: 100%;
+  text-align: center;
+}
+/*   background-color: turquoise; */
+.mobile-nav__items li:nth-child(1) {
+  background-color: turquoise;
+  width: 100%;
+  text-align: center;
+}
+.co-business {
+  /* position: relative; */
+  background-color: cornsilk;
+  /* top: 17rem; */
+  left: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Cooks image  start*/
+.co-business {
+  top: 17rem;
+}
+.cooks {
+  width: 100vw;
+  /* top: 17rem; */
+  /*height: 42rem;*/
+  background-color: rgb(240, 233, 233);
+  margin-top: 0rem;
+  text-align: center;
+}
+.cooks img {
+  width: 95%;
+  height: 41rem;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  object-fit: cover;
+  zoom: 102%;
+}
+/* Cooks image end */
+.we-are,
+.we-are span {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* display: block;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+}
+.food-groups {
+  width: 97%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.food-groups h3 {
+  margin-bottom: 2rem;
+}
+/* Prod Group-List start */
+.food-group {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.food-group_img {
+  width: 97%;
+  height: auto;
+}
+.food-group_img img {
+  height: auto;
+  width: 97%;
+  object-fit: cover;
+}
+.food-group h4,
+p {
+  padding: 1rem;
+}
+.food-law {
+  margin: 1rem;
+}
+.food-law ol {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.food-law span {
+  font-weight: bold;
+}
+/* Prod Group-List end */
+
+/*End of V-section in US*/
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  height: 4rem;
+  flex-wrap: wrap;
+}
+@media (max-width: 26rem) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+}
