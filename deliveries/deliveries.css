@@ -1,0 +1,200 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900'); */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap'); /*Lui Vuiton*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap'); /*mersedes*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+/* *{
+  height: 100vh;
+} */
+body{
+  background-color: rgb(246, 244, 244);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.main-nav__items li:nth-child(4) {
+  background-color: rgb(107, 101, 101);
+
+}
+.main-nav__items li:nth-child(1) {
+  background-color: black;
+}
+
+main{
+  position: relative;
+  top: 10rem;
+  left: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+h3{
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.intro_and_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.contacts-list{
+  margin-left: 1.5rem;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+.contacts-list li{
+  padding: 1.0rem;
+  font-size: 1.4rem;
+}
+span{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/* mos+region 2tab+2map */
+.delivery-tariff-list h3{
+  width: 100%;
+  text-align: center;
+}
+
+.t1, table, th, td{
+  border:0.2rem solid olive;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 1.0rem;
+  background-color: rgb(216, 250, 182);
+}
+.t1{
+  width: 50vw;
+  height: auto;
+  padding: 2rem;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+ 
+}
+caption{
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: rgb(246, 244, 244);
+  padding-bottom: 2.5rem;
+}
+.delivery-moscow{
+  width: 100vw;
+  padding: 2rem;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.d-moscow__img img{
+  width:auto;
+  height: 30rem;
+  padding: 2rem;
+}
+
+.delivery-mosregion{
+  width: 100vw;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.d-moscow__img2 h3{
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.d-moscow__img2 img{
+  width:auto;
+  max-width: 100%;
+  height: 25rem;
+  padding: 1rem;
+  object-fit: contain;
+}
+.d-zone-list{
+  width: 100vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.d-zone-list table.t1{
+  margin-left: 1rem;
+  text-align: center;
+  width: 90vw;
+}
+.d-last h4{
+  margin-left: 1rem;
+  padding: 0.2rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+
+}
+
+
+.footer{
+  /* position: ; */
+  /* top: 175rem; */
+  bottom: 0;
+  height: 3rem;
+ 
+}
+@media (max-width:51rem){
+  .intro_and_image{
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+}
+  caption{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .t1, table, th, td{
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 0.6rem;  
+  }
+  .d-moscow__img img{
+    height: 20rem;
+    padding: 1rem;
+  }
+  .d-moscow__img h3{
+    font-size: 1rem;
+  }
+}
+@media (max-width:26rem) {
+  .mobile-nav__items li:nth-child(4) {
+    background-color: rgb(107, 101, 101);
+    width: 100%;  
+    text-align: center;
+  }
+  .mobile-nav__items li:nth-child(1) {
+    background-color: turquoise;
+  }
+
+  .intro_and_image{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+}
+ .intro_and_image img{
+   width: 100%;
+ }
+ .footer{
+   position: relative;
+   /* top: 1.5vh; */
+   margin-top: 1rem;
+   flex-wrap: wrap;
+   height: auto;
+ }
+}
