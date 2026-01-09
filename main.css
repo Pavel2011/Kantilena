@@ -870,3 +870,60 @@ background-color: rgb(40, 61, 156);
     color: blueviolet;
   }
 }
+/*=====================09.01.2026 ==========================================*/
+@media(min-width: 414px) and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-section {
+    padding: 0;
+    width: 100vw;
+  }
+
+  .upper-header {
+    display: none;
+  }
+
+  .backdrop {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 150;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .upper-header {
+    display: none;
+    padding-bottom: 0;
+  }
+
+  .first-section {
+    top: 6rem;
+    margin-top: 6rem;
+    height: auto;
+  }
+
+  .first-section__div {
+    height: auto;
+  }
+
+  .first-section__div img {
+    width: 100%;
+    height: auto;
+    /*auto*/
+    object-fit: fill;
+    /*cover*/
+  }
+
+  .vton-section {
+    top: 0;
+  }
+
+  .v {
+    flex-direction: column;
+    width: 100%;
+  }
+}
