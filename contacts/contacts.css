@@ -29,7 +29,7 @@ main {
   left: 0;
   font-family: 'Times New Roman', Times, serif;
 }
-h3 {
+h3,Li {
   font-size: 1.8rem;
   padding: 1.5rem;
 }
@@ -181,3 +181,4 @@ bottom: 0;
     height: 40%;
   }
 }
+
